@@ -1,0 +1,3 @@
+type Subscription {
+    createMessage(chatId: ID!): Message!
+}

@@ -1,0 +1,9 @@
+type Mutation{
+    createUser(
+        avatar: String
+        email: String!
+        firstName: String
+        lastName: String
+        password: String
+    ): User!
+}

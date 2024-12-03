@@ -1,0 +1,7 @@
+type Mutation {
+  createMessage(
+    content: String
+    userId: String
+    chatId: String
+  ): Message!
+}
